@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex; 
+    padding: 25px;
+ 
+}
+.topbar{
+   text-decoration: none;
+   color: black;
+   padding-top: 10px;
+   font-size: 15px;
+}
+.navright{
+margin-left: 10px;
+padding-right: 10px;
+float: right;
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+.pic {
+    display: flex;
+       width:180px
+    align-items: center; 
+ 
+}
+.image-text {
+    position: absolute;
+    display: flex;
+    top: 50%; /* Adjust this value to vertically center the text as needed */
+    left: 50%; /* Adjust this value to horizontally center the text as needed */
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px; /* Adjust the padding as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+.imagetext {
+    position: absolute;
+    display: flex;
+    top: 50%; /* Adjust this value to vertically center the text as needed */
+    left: 56%; /* Adjust this value to horizontally center the text as needed */
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Adjust the padding as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.centered-image {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: contain; 
+}
+.content{
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px, 150px;
+  
+}
+.par{
+   margin: 40px;
+}
+.image-grid {
+    display: flex;
+   align-items: center; /* Center images vertically */
+    margin-top: 10px; /* Add some space between the centered image and the grid */
+}
+.span{
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+}
+.line{
+    color: gray;
+    text-shadow: none;
+}
+.txt{
+    margin-top: 20px;
+}
+
+.grid-image {
+    max-width: 90%; /* Adjust the width as needed to fit four images in a row */
+     height: auto;/* Maintain aspect ratio */
+    margin: 0px;
+}
+.image-grid2 {
+    display: flex;
+       
+    align-items: center; /* Center images vertically */
+    margin-top: 10px; /* Add some space between the centered image and the grid */
+}
+.owners{
+    display: flex;
+}
+.persons{
+
+    background:white ;
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.persimg{
+height: 150px;
+width: 100%;
+background-size: cover;
+}
+.btn{
+    width: 100%;
+    background-color: white;
+    height: 25px;    
+    text-transform: capitalize;
+}
+.name{
+    font-weight: 60;
+    font-size: 14px;
+}
+.contactform{
+    text-transform: capitalize;
+}
+
+.contactform input{
+    width: 80%;
+    height: 30%;
+    margin: 10px 0;
+    border: 1px gray solid;
+
+
+}
+.contactform ::placeholder{
+    padding-left: 8px;
+}
+.btn2{
+    background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 30%;
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
